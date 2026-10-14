@@ -8,9 +8,9 @@ Este arquivo define todas as especificações técnicas, schemas de dados, dicio
 
 ---
 
-## 1. Localização e Arquitetura do Projeto
+## 1. Arquitetura do Projeto
 
-- **Caminho Base**: `C:\Users\mattheus.pereira.spt\Documents\Agente FieldService`
+- **Nome do Projeto**: `Agente FieldService`
 - **Executável Final**: `AgenteFieldService.exe`
 
 ### Camadas Desacopladas:

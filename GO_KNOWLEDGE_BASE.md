@@ -104,10 +104,9 @@ Para resolver isso, criamos o algoritmo `wrapText`:
 
 ## 5. Como Compilar para Produção
 
-No PowerShell na pasta do projeto:
+Na pasta do código fonte:
 ```powershell
-cd "$HOME\Documents\Agente FieldService"
-& "C:\Program Files\Go\bin\go.exe" build -ldflags="-s -w" -o AgenteFieldService.exe main.go
+go build -ldflags="-s -w" -o AgenteFieldService.exe main.go
 ```
 - `-s`: Remove símbolos de depuração (*symbol table*).
 - `-w`: Desativa informações de debug DWARF.
